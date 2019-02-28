@@ -19,4 +19,4 @@ npm install
 php artisan migrate
 ```
 
-['application'](https://github.com/ashkan90/Laravel-Vue-Scaffold/blob/master/application.png?raw=true)
+![application](https://github.com/ashkan90/Laravel-Vue-Scaffold/blob/master/application.png?raw=true)
