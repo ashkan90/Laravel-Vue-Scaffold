@@ -1,6 +1,7 @@
 # Larvel VueJS~Vuetify Starter Project For Experienced Users
 Laravel Vue Webpack scaffolded project with Vuetify UI library. 
 NOTE:This application scaffolde inspired by <a href="https://github.com/darryldecode">darryldecode</a>'s <a href="https://github.com/darryldecode/laravel-starter-kit">laravel-starter-kit</a>
+![application](https://github.com/ashkan90/Laravel-Vue-Scaffold/blob/master/application.png?raw=true)
 
 ## Clone Repository
 ```
@@ -19,4 +20,4 @@ npm install
 php artisan migrate
 ```
 
-![application](https://github.com/ashkan90/Laravel-Vue-Scaffold/blob/master/application.png?raw=true)
+
