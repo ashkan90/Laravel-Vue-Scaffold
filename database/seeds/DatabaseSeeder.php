@@ -11,6 +11,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+        $domains = ["http://127.0.0.1:8000", "http://192.168.1.30:8080"];
+
+        foreach ($domains as $domain) {
+            App\Domain::create(["domain" => $domain]);
+        }
+
+        //factory(App\Article::class, 50)->create();
     }
 }

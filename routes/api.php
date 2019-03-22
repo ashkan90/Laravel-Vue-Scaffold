@@ -16,3 +16,12 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+Route::middleware('cors')->get('/articles', function(){
+	return response()->json([
+		'book' => 'Crime and Punishment',
+		'published_at' => '1886',
+		'writer' => 'Fyodor Mihailovic Dostoyevsky'
+	]);
+});
