@@ -69,4 +69,11 @@ php artisan migrate
 php artisan db:seed
 ```
 
+## Playground
+```
+php artisan serve
+cd frontend
+npm run serve
+```
+
 
